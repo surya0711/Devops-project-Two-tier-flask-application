@@ -1,9 +1,9 @@
 pipeline{
     agent any
     stages{
-        stage('Clone repo'){
+        stage('Clone repo'){ 
             steps{
-                git branch: 'main', url: 'https://github.com/prashantgohel321/DevOps-Project-Two-Tier-Flask-App.git'
+                git branch: 'main', url: 'https://github.com/surya0711/Devops-project-Two-tier-flask-application.git'
             }
         }
         stage('Build image'){
